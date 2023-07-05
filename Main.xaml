@@ -1,0 +1,127 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="612,1207.3333333333333" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="546,1142.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: safrpa-02 - Moringa Classroom - Slack" sap:VirtualizedContainerService.HintSize="484,1032" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="f258f01b-d283-45bb-9044-fa8dfa49bf3e" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,734.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'safrpa-02 (current'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f258f01b-d283-45bb-9044-fa8dfa49bf3e" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="11, 539, 390, 42" DesignTimeScaleFactor="1.5" FriendlyName="'safrpa-02 (current'" FullSelectorArgument="&lt;ctrl name='safrpa-02 - Moringa Classroom - Slack' role='document' /&gt;&lt;ctrl name='safrpa-02 (current channel, private)' role='outline item' /&gt;" FuzzySelectorArgument="&lt;ctrl name='safrpa-02 - Moringa Classroom - Slack' role='document' /&gt;&lt;ctrl name='safrpa-02 (current channel, private)' role='outline item' automationid='' check:text='safrpa-02 (current channel, private)' /&gt;" Guid="2ad4b0e8-3836-4817-9e6b-33b2bae3fb71" ImageBase64="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" InformativeScreenshot="42926c363ab4cbfb0cc0ee1cdd8b5a8c.png" ScopeSelectorArgument="&lt;wnd app='slack.exe' appid='91750D7E.Slack_8she8kybcnzg4!Slack' title='safrpa-02 - Moringa Classroom - Slack' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'editable text'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="f258f01b-d283-45bb-9044-fa8dfa49bf3e" Text="This is  test BOT" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="432, 877, 1468, 57" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'editable text'" FullSelectorArgument="&lt;ctrl name='safrpa-02 - Moringa Classroom - Slack' role='document' /&gt;&lt;ctrl name='Message to safrpa-02' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='safrpa-02 - Moringa Classroom - Slack' role='document' /&gt;&lt;ctrl name='Message to safrpa-02' role='editable text' automationid='' /&gt;" Guid="225c146a-9f01-46c3-be32-ee5b6882a73d" ImageBase64="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" InformativeScreenshot="cb036c3457c75fbff3f458e63380ab0b.png" ScopeSelectorArgument="&lt;wnd app='slack.exe' appid='91750D7E.Slack_8she8kybcnzg4!Slack' title='safrpa-02 - Moringa Classroom - Slack' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'push button Send now'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f258f01b-d283-45bb-9044-fa8dfa49bf3e" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="1808, 943, 49, 42" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'push button Send now'" FullSelectorArgument="&lt;ctrl name='safrpa-02 - Moringa Classroom - Slack' role='document' /&gt;&lt;ctrl name='Send now' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='safrpa-02 - Moringa Classroom - Slack' role='document' /&gt;&lt;ctrl name='Send now' role='push button' automationid='' /&gt;" Guid="692ef520-0951-4821-862b-05d2cd692d2b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADUAAAAuCAYAAACI91EoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAGXSURBVGhD7do/S8NgEAbw7i5+BD+Ci7ujn8FFBXF1VhxEl4KjoIJCv0BBcXPS7gri0MHBP4uCgi2IOJ7e611xuBLT3r3pnX3ggRLepPmRNAl9U4OAKUQ9v3fpk5+IKITUW6cws7cBE5tLUFuf91Vy9HJ2ewNzjbo82EvJkoJHyD0IS54UPOXEQd5KnhT8DYmDvJU86dRzeVGQSqYUcYCDrhwfpfaWkSfl90BPHaO81AQ1vbsmLs9VddTUzmpa9/7tBRaa++IY66qjZg+3ae2fVIEzR3Fy4rKhODlw2VEcS1xlKI4FTh2Fl/NBoolTR2EfOq+0hfLRwJmg8GidtC/h4q49MHAYnAnqr8Ubdffzg75NDuImt5bF9fu1clSnAIVHeiRQuBONqxacf59+RTvdL4hZbB6I2y+qCer66ZG2UD7DYLjqKH6gLRsNDFcdVfbmq4nhVoaywHCzoywx3GyoHBiuOSonhquO4qtfFRiuOgob7o+XUegY5aX/CxV2KifcpBsm5PRoyIlsTLhXDjjhXg6JkIAogC/ERES3KfhsOwAAAABJRU5ErkJggg==" InformativeScreenshot="893a303757425af5698c48951b3cb5de.png" ScopeSelectorArgument="&lt;wnd app='slack.exe' appid='91750D7E.Slack_8she8kybcnzg4!Slack' title='safrpa-02 - Moringa Classroom - Slack' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" FilePath="91750D7E.Slack_8she8kybcnzg4!Slack" IconBase64="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" InformativeScreenshot="6360e81560aa423505c8919a24278194.png" Selector="&lt;wnd app='slack.exe' appid='91750D7E.Slack_8she8kybcnzg4!Slack' title='safrpa-02 - Moringa Classroom - Slack' /&gt;" Title="safrpa-02 - Moringa Classroom - Slack" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
